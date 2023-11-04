@@ -4,5 +4,5 @@
 
 
 <p align="center">
-  <img width="460" height="300" src="./pictures/Introduction/DOM.png">
+  <img width="400" height="300" src="./pictures/Introduction/DOM.png">
 </p>
