@@ -1,0 +1,13 @@
+  ## Accessing the DOM
+  Accessing elements in the DOM means finding specific parts of a website and changing or manipulating them.
+
+To access an element on a website, you need to know the specific element you want to access.
+
+JavaScript provides different methods to access the elements in the DOM:
+
+-   [`document.getElementById(id)`](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
+-   [`document.getElementsByClassName(className)`](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
+-   [`document.getElementsByTagName(tagName)`](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
+-   [`document.querySelector(cssSelector)`](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
+-   [`document.querySelectorAll(cssSelector)`](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelectorAll)
+- [`document.getElementsbyName(html attribute)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName?retiredLocale=pl)
