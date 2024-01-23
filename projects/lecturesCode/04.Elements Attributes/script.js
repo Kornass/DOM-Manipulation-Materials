@@ -5,6 +5,7 @@ console.log(lis);
 
 const addItemBtn = document.getElementsByTagName("button")[0];
 
+// Create list item on click and apply item id to it
 addItemBtn.addEventListener("click", function () {
   const newItem = document.createElement("li");
   newItem.innerHTML = `User${lis.length + 1}`;
@@ -14,6 +15,7 @@ addItemBtn.addEventListener("click", function () {
 
 const removeStylingBtn = document.getElementsByTagName("button")[1];
 
+// Remove styling of all elements
 removeStylingBtn.addEventListener("click", function () {
   [...lis].forEach((ele) => ele.removeAttribute("id"));
 });
