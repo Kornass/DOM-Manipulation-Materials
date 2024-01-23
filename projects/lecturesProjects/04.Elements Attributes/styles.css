@@ -1,0 +1,31 @@
+.wrapper {
+  width: 85%;
+  border: 2px solid blue;
+  min-height: 50vh;
+  margin: auto;
+  background-color: rgb(208, 205, 205);
+  text-align: center;
+}
+ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#item {
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+  width: 60%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgb(249, 177, 177);
+}
+.special {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

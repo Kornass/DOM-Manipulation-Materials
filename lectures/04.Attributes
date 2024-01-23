@@ -1,0 +1,29 @@
+
+## Manipulating elements attributes
+
+- [`setAttribute(name,value)`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+Sets the value of an attribute on the specified element. If the attribute already exists, the value is updated; otherwise a new attribute is added with the specified name and value.
+
+- [`removeAttribute(name)`](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)
+The [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) method **`removeAttribute()`** removes the attribute with the specified name from the element.
+
+- [`getAttribute(name)`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
+The **`getAttribute()`** method of the [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) interface returns the value of a specified attribute on the element.
+
+-  [`hasAttributes()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes?retiredLocale=pl)
+The **`hasAttributes()`** method of the [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) interface returns a boolean value indicating whether the current element has any attributes or not.
+```
+let foo = document.getElementById("foo");
+if (foo.hasAttributes()) {
+  // Do something with 'foo.attributes'
+}
+```
+- [`Element.classList.add()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList?retiredLocale=pl)
+
+Although the `classList` property itself is read-only, you can modify its associated `DOMTokenList` using the [`add()`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/add "add()"), [`remove()`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/remove "remove()"), [`replace()`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/replace "replace()"), and [`toggle()`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle "toggle()") methods.
+
+-  [`Element.classList.remove()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList?retiredLocale=pl)
+-  [`Element.classList.toggle()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList?retiredLocale=pl)
+-  [`Element.classList.replace()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList?retiredLocale=pl)
+-   [`Element.classList.contains(name)`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/contains)
+Returns a boolean value — `true` if the underlying list contains the given name, otherwise `false`.

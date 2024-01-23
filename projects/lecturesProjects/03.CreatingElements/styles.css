@@ -1,11 +1,12 @@
 .square {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    position: inline;
-    margin: 1rem;
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  position: inline;
+  margin: 1rem;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
