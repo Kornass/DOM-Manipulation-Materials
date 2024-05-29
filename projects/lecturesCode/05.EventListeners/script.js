@@ -1,9 +1,9 @@
-// get second card
+// first element's button has onclick applied on html
 const second = document.getElementsByClassName("card")[1];
 const third = document.getElementsByClassName("card")[2];
-const wrapper = document.getElementById("wrapper");
-const body = document.getElementsByTagName("body")[0];
+const wrapper = document.getElementsByClassName("wrapper")[0];
 let message;
+
 // display message on click that you can delete
 second.addEventListener("click", function () {
   message = document.createElement("h3");
@@ -11,14 +11,16 @@ second.addEventListener("click", function () {
   message.addEventListener("click", function () {
     message.remove();
   });
-  body.append(message);
+  wrapper.append(message);
 });
 
+const initialWidth = window.innerWidth;
 // resizing
 window.addEventListener("resize", function () {
-  let message = document.createElement("h3");
-  message.textContent = "Resizing";
-  body.append(message);
+  console.log(window.innerWidth);
+  // let message = document.createElement("h3");
+  // message.textContent = "Resizing";
+  // wrapper.append(message);
 });
 
 //* do something after whole DOM structure is loaded
