@@ -26,6 +26,7 @@ function addSquare() {
   // modifying div
   square.classList.add("square");
 
+  // button to generate random background color, the first child of the square (clickMeBtn)
   square.childNodes[0].addEventListener("click", function () {
     var x = Math.floor(Math.random() * 256);
     var y = Math.floor(Math.random() * 256);
@@ -33,7 +34,7 @@ function addSquare() {
     var bgColor = "rgb(" + x + "," + y + "," + z + ")";
     square.style.backgroundColor = bgColor;
   });
-  // giving div buttons removing functionality
+  // giving div removeMeBtn removing functionality
   square.childNodes[1].addEventListener("click", function () {
     square.remove();
   });
