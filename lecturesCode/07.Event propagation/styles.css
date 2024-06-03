@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  padding: 1rem;
+}
+.first,
+.second,
+.third {
+  width: 20%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  border: 2px solid red;
+}
+.second {
+  border: 2px solid blue;
+}
+.third {
+  border: 2px solid rgb(26, 235, 26);
+}

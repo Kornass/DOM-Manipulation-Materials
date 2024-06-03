@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid black;
+}
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid red;
+  padding: 1rem;
+}
+ul {
+  list-style: none;
+}
+.inner ul > * {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.inner ul > *:hover {
+  cursor: pointer;
+}
